@@ -7,8 +7,8 @@ body {
 
 .bg-light {
   background: #00000000 !important;
-  /* backdrop-filter: blur(3px);
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589); */
+  /* backdrop-filter: blur(3%);
+  box-shadow: 0px 0px 20% 0% rgba(0, 0, 0, 0.589); */
   transition: all 0.5s;
 }
 .bg-light.scrolled {
@@ -61,8 +61,8 @@ body {
   align-items: center;
 }
 .waves {
-  margin-top: -100px;
-  margin-bottom: 70px;
+  margin-top: -100%;
+  margin-bottom: 70%;
 }
 .firstContainer {
   background: linear-gradient(
@@ -75,25 +75,25 @@ body {
     #ffffff1f 90%,
     #ffffff00 100%
   );
-  margin-top: -80px;
-  margin-bottom: 50px;
+  margin-top: -80%;
+  margin-bottom: 50%;
 }
 
 .content {
-  padding-bottom: 400px;
+  padding-bottom: 400%;
 }
 .nameHeading {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 .subNameHeading {
   display: none;
 }
 .content .row {
-  padding-bottom: 40px;
+  padding-bottom: 40%;
 }
 .education {
   display: flex;
